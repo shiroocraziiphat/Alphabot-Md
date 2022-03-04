@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `(>▂<)Mohon tunggu sebentar~`
+    return `Mohon tunggu sebentar(>▽<)`
 }
 exports.ok = () => {
     return `☑️Done. Ok desu~`
@@ -86,7 +86,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} ←(>▽<)ﾉ selamat ${salam} , 
-saya Shiro-Md, bot ini adalah Beta Multi-Device Whatsapp. 
+saya 𝑺𝒉𝒊𝒓𝒐-𝑴𝒅, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
 lapor owner agar segera di perbaiki 🙏      
 `
@@ -94,9 +94,9 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Shiro-Md :*
+*📚 List-Menu 𝑺𝒉𝒊𝒓𝒐-𝑴𝒅 :*
 
-┏━━━ꕥ「*Bot Info* 」 ꕥ━⬣
+┏━━━ꕥ「 *Bot Info* 」 ꕥ━⬣
 ┃✾ ${prefix}owner
 ┃✾ ${prefix}rules
 ┃✾ ${prefix}sc
@@ -107,7 +107,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Owner* 」 ꕥ━⬣
+┏━━━ꕥ「 *Owner* 」 ꕥ━⬣
 ┃✾ < evaluate
 ┃✾ > evaluate
 ┃✾ $ exec
@@ -136,7 +136,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Database* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Database* 」 ꕥ━⬣ 
 ┃✾ ${prefix}setcmd [reply stiker]
 ┃✾ ${prefix}delcmd [reply stiker]
 ┃✾ ${prefix}listcmd
@@ -151,7 +151,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Group Menu* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Group Menu* 」 ꕥ━⬣ 
 ┃✾ ${prefix}listonline
 ┃✾ ${prefix}sider
 ┃✾ ${prefix}wm packname|author
@@ -171,28 +171,28 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}hidetag [text]
 ┗━ꕥ
 
-┏━━━ꕥ「*Anime* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Anime* 」 ꕥ━⬣ 
 ┃✾ ${prefix}quotesanime
 ┃✾ ${prefix}anime [query]
 ┃✾ ${prefix}manga [query]
 ┃✾ ${prefix}character [query]
 ┗━ꕥ
 
-┏━━━ꕥ「*Tag* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Tag* 」 ꕥ━⬣ 
 ┃✾ ${prefix}stickertag
 ┃✾ ${prefix}videotag [query]
 ┃✾ ${prefix}vntag [query]
 ┃✾ ${prefix}imagetag [query]
 ╰❒
 
-┏━━━ꕥ「*Stalking* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Stalking* 」 ꕥ━⬣ 
 ┃✾ ${prefix}igstalk [username]
 ┃✾ ${prefix}ghstalk [username]
 ┃✾ ${prefix}ytstalk [channel]
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Search* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Search* 」 ꕥ━⬣ 
 ┃✾ ${prefix}ytsearch [query]
 ┃✾ ${prefix}wallpaper [query]
 ┃✾ ${prefix}wikimedia [query]
@@ -204,7 +204,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Converter* 」 ꕥ━⬣
+┏━━━ꕥ「 *Converter* 」 ꕥ━⬣
 ┃✾ ${prefix}toaudio [video]
 ┃✾ ${prefix}tomp3 [video]
 ┃✾ ${prefix}tovn [video]
@@ -216,7 +216,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Image effect* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Image effect* 」 ꕥ━⬣ 
 ┃✾ ${prefix}wanted [reply image/stiker]
 ┃✾ ${prefix}utatoo [reply image/stiker]
 ┃✾ ${prefix}unsharpen [reply image/stiker]
@@ -254,7 +254,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Sticker Effect* 」 ꕥ━⬣
+┏━━━ꕥ「 *Sticker Effect* 」 ꕥ━⬣
 ┃✾ ${prefix}jail [reply image/stiker]
 ┃✾ ${prefix}red [reply image/stiker]
 ┃✾ ${prefix}gay [reply image/stiker]
@@ -277,7 +277,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Download* 」 ꕥ━⬣ 
+┏━━━ꕥ「 *Downloader* 」 ꕥ━⬣ 
 ┃✾ ${prefix}tiktok [link]
 ┃✾ ${prefix}tiktoknowm [link]
 ┃✾ ${prefix}tiktokwm [link]
@@ -305,7 +305,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}twitter link
 ┗━ꕥ
 
-┏━━━ꕥ「*Primbon* 」 ꕥ━⬣
+┏━━━ꕥ「 *Primbon* 」 ꕥ━⬣
 ┃✾ ${prefix}nomorhoki 887435047326
 ┃✾ ${prefix}artimimpi [query]
 ┃✾ ${prefix}artinama [query]
@@ -338,7 +338,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}shio [query]
 ┗━ꕥ
 
-┏━━━ꕥ「*Random Anime* 」 ꕥ━⬣
+┏━━━ꕥ「 *Random Anime* 」 ꕥ━⬣
 ┃✾ ${prefix}loli
 ┃✾ ${prefix}neko
 ┃✾ ${prefix}waifu
@@ -372,7 +372,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}cringe
 ┗━ꕥ
 
-┏━━━ꕥ「*Nsfw & Sfw* 」 ꕥ━⬣
+┏━━━ꕥ「 *Nsfw & Sfw* 」 ꕥ━⬣
 ┃✾ ${prefix}ahegao
 ┃✾ ${prefix}ass
 ┃✾ ${prefix}bdsm
@@ -453,7 +453,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}zettai
 ┗━ꕥ
 
-┏━━━ꕥ「*Textpro Menu* 」 ꕥ━⬣
+┏━━━ꕥ「 *Textpro Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}halloween2 text|text2
 ┃✾ ${prefix}horror text|text2
 ┃✾ ${prefix}game8bit text|text2
@@ -637,7 +637,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Others* 」 ꕥ━⬣
+┏━━━ꕥ「 *Others* 」 ꕥ━⬣
 ┃✾ ${prefix}afk [reason]
 ┃✾ ${prefix}translate kode_bahasa text
 ┃✾ ${prefix}kalkulator [query]
@@ -646,7 +646,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}memegen [text|text]
 ┗━ꕥ
 
-┏━━━ꕥ「*Game Menu* 」 ꕥ━⬣
+┏━━━ꕥ「 *Game Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}kuismath
 ┃✾ ${prefix}tebak [option]
 ┃✾ ${prefix}tekateki
@@ -655,7 +655,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┗━ꕥ
 
 
-┏━━━ꕥ「*Asupan Menu* 」 ꕥ━⬣
+┏━━━ꕥ「 *Asupan Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}chika
 ┃✾ ${prefix}delvira
 ┃✾ ${prefix}ayu
@@ -680,7 +680,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}syifa
 ┗━ꕥ
 
-┏━━━ꕥ「*Telegram Sticker* 」 ꕥ━⬣
+┏━━━ꕥ「 *Telegram Sticker* 」 ꕥ━⬣
 ┃✾ ${prefix}awoawo
 ┃✾ ${prefix}benedict
 ┃✾ ${prefix}chat
@@ -704,7 +704,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}tyni
 ┗━ꕥ
 ,
-┏━━━ꕥ「*Random Cewe* 」 ꕥ━⬣
+┏━━━ꕥ「 *Random Cewe* 」 ꕥ━⬣
 ┃✾ ${prefix}china 
 ┃✾ ${prefix}indonesia 
 ┃✾ ${prefix}malaysia 
@@ -718,7 +718,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ┃✾ ${prefix}rose
 ┗━ꕥ
 
-┏━━━ꕥ「*Tq To* 」 ꕥ━⬣
+┏━━━ꕥ「 *Tq To* 」 ꕥ━⬣
 ┃✾ My God
 ┃✾ My Parents
 ┃✾ Fatih A.
@@ -792,7 +792,7 @@ wa.me/${ownernomer}
 }
 
 exports.info = (prefix) =>{
-	return`┏━━━ꕥ「*Bot Info* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Bot Info* 」 ꕥ━⬣
 ┃✾ ${prefix}owner
 ┃✾ ${prefix}rules
 ┃✾ ${prefix}sc
@@ -804,7 +804,7 @@ exports.info = (prefix) =>{
 `}
 
 exports.ownermenu = (prefix) =>{
-return`┏━━━ꕥ「*Owner* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Owner* 」 ꕥ━⬣
 ┃✾ < evaluate
 ┃✾ > evaluate
 ┃✾ $ exec
@@ -834,7 +834,7 @@ return`┏━━━ꕥ「*Owner* 」 ꕥ━⬣
 `}
 
 exports.database = (prefix) =>{
-	return`┏━━━ꕥ「*Database* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Database* 」 ꕥ━⬣
 ┃✾ ${prefix}setcmd [reply stiker]
 ┃✾ ${prefix}delcmd [reply stiker]
 ┃✾ ${prefix}listcmd
@@ -850,7 +850,7 @@ exports.database = (prefix) =>{
 `}
 
 exports.group = (prefix) =>{
-	return`┏━━━ꕥ「*Group* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Group* 」 ꕥ━⬣
 ┃✾ ${prefix}listonline
 ┃✾ ${prefix}sider
 ┃✾ ${prefix}wm packname|author
@@ -872,7 +872,7 @@ exports.group = (prefix) =>{
 `}
 
 exports.anime = (prefix) =>{
-	return`┏━━━ꕥ「*Anime* 」 ꕥ━⬣ 
+	return`┏━━━ꕥ「 *Anime* 」 ꕥ━⬣ 
 ┃✾ ${prefix}quotesanime
 ┃✾ ${prefix}anime [query]
 ┃✾ ${prefix}manga [query]
@@ -881,7 +881,7 @@ exports.anime = (prefix) =>{
 `}
 
 exports.tag = (prefix) =>{
-	return`┏━━━ꕥ「*Tag* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Tag* 」 ꕥ━⬣
 ┃✾ ${prefix}stickertag
 ┃✾ ${prefix}videotag [query]
 ┃✾ ${prefix}vntag [query]
@@ -890,7 +890,7 @@ exports.tag = (prefix) =>{
 `}
 
 exports.stalk = (prefix) =>{
-	return`┏━━━ꕥ「*Stalking* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Stalking* 」 ꕥ━⬣
 ┃✾ ${prefix}igstalk [username]
 ┃✾ ${prefix}ghstalk [username]
 ┃✾ ${prefix}ytstalk [channel]
@@ -898,7 +898,7 @@ exports.stalk = (prefix) =>{
 `}
 
 exports.search = (prefix) =>{
-	return`┏━━━ꕥ「*Search* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Search* 」 ꕥ━⬣
 ┃✾ ${prefix}ytsearch [query]
 ┃✾ ${prefix}wallpaper [query]
 ┃✾ ${prefix}wikimedia [query]
@@ -911,7 +911,7 @@ exports.search = (prefix) =>{
 `}
 
 exports.converter = (prefix) =>{
-	return`┏━━━ꕥ「*Converter* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Converter* 」 ꕥ━⬣
 ┃✾ ${prefix}toaudio [video]
 ┃✾ ${prefix}tomp3 [video]
 ┃✾ ${prefix}tovn [video]
@@ -924,7 +924,7 @@ exports.converter = (prefix) =>{
 `}
 
 exports.effect = (prefix) =>{
-	return`┏━━━ꕥ「*Image effect* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Image effect* 」 ꕥ━⬣
 ┃✾ ${prefix}wanted [reply image/stiker]
 ┃✾ ${prefix}utatoo [reply image/stiker]
 ┃✾ ${prefix}unsharpen [reply image/stiker]
@@ -964,7 +964,7 @@ exports.effect = (prefix) =>{
 
 //
 exports.effect2 = (prefix) =>{
-	return`┏━━━ꕥ「*Sticker Effect* 」 ꕥ━⬣ 
+	return`┏━━━ꕥ「 *Sticker Effect* 」 ꕥ━⬣ 
 ┃✾ ${prefix}jail [reply image/stiker]
 ┃✾ ${prefix}red [reply image/stiker]
 ┃✾ ${prefix}gay [reply image/stiker]
@@ -989,7 +989,7 @@ exports.effect2 = (prefix) =>{
 }
 
 exports.download = (prefix) =>{
-return`┏━━━ꕥ「*Download* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Downloader* 」 ꕥ━⬣
 ┃✾ ${prefix}tiktok [link]
 ┃✾ ${prefix}tiktoknowm [link]
 ┃✾ ${prefix}tiktokwm [link]
@@ -1020,7 +1020,7 @@ return`┏━━━ꕥ「*Download* 」 ꕥ━⬣
 }
 
 exports.ranime = (prefix) =>{
-	return`┏━━━ꕥ「*Random Anime* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Random Anime* 」 ꕥ━⬣
 ┃✾ ${prefix}loli
 ┃✾ ${prefix}neko
 ┃✾ ${prefix}waifu
@@ -1057,7 +1057,7 @@ exports.ranime = (prefix) =>{
 }
 
 exports.nsfw = (prefix) =>{
-	return`┏━━━ꕥ「*Nsfw & Sfw* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Nsfw & Sfw* 」 ꕥ━⬣
 ┃✾ ${prefix}ahegao
 ┃✾ ${prefix}ass
 ┃✾ ${prefix}bdsm
@@ -1141,7 +1141,7 @@ exports.nsfw = (prefix) =>{
 }
 
 exports.textpro = (prefix) =>{
-	return`┏━━━ꕥ「*Textpro Menu* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Textpro Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}halloween2 text|text2
 ┃✾ ${prefix}horror text|text2
 ┃✾ ${prefix}game8bit text|text2
@@ -1328,7 +1328,7 @@ exports.textpro = (prefix) =>{
 
 
 exports.other = (prefix) =>{
-return`┏━━━ꕥ「*Others* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Others* 」 ꕥ━⬣
 ┃✾ ${prefix}ttp [text]
 ┃✾ ${prefix}attp [text]
 ┃✾ ${prefix}afk [reason]
@@ -1341,7 +1341,7 @@ return`┏━━━ꕥ「*Others* 」 ꕥ━⬣
 `
 }
 exports.game = (prefix) =>{
-return`┏━━━ꕥ「*Game Menu* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Game Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}kuismath
 ┃✾ ${prefix}tebak [option]
 ┃✾ ${prefix}tekateki
@@ -1351,7 +1351,7 @@ return`┏━━━ꕥ「*Game Menu* 」 ꕥ━⬣
 `
 }
 exports.asupan = (prefix) =>{
-return`┏━━━ꕥ「*Asupan Menu* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Asupan Menu* 」 ꕥ━⬣
 ┃✾ ${prefix}chika
 ┃✾ ${prefix}delvira
 ┃✾ ${prefix}ayu
@@ -1378,7 +1378,7 @@ return`┏━━━ꕥ「*Asupan Menu* 」 ꕥ━⬣
 `
 }
 exports.cecan = (prefix) =>{
-return`┏━━━ꕥ「*Random Cewe* 」 ꕥ━⬣
+return`┏━━━ꕥ「 *Random Cewe* 」 ꕥ━⬣
 ┃✾ ${prefix}china 
 ┃✾ ${prefix}indonesia 
 ┃✾ ${prefix}malaysia 
@@ -1395,7 +1395,7 @@ return`┏━━━ꕥ「*Random Cewe* 」 ꕥ━⬣
 }
 
 exports.tqto = () =>{
-	return`┏━━━ꕥ「*Tq To* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Tq To* 」 ꕥ━⬣
 ┃✾ My God
 ┃✾ My Parents
 ┃✾ Fatih A.
@@ -1412,7 +1412,7 @@ exports.tqto = () =>{
 }
 
 exports.primbonmenu = (prefix) =>{
-	return`┏━━━ꕥ「*Primbon* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Primbon* 」 ꕥ━⬣
 ┃✾ ${prefix}nomorhoki 887435047326
 ┃✾ ${prefix}artimimpi [query]
 ┃✾ ${prefix}artinama [query]
@@ -1448,7 +1448,7 @@ exports.primbonmenu = (prefix) =>{
 }
 
 exports.stcmenu = (prefix) =>{
-	return`┏━━━ꕥ「*Telegram Sticker* 」 ꕥ━⬣
+	return`┏━━━ꕥ「 *Telegram Sticker* 」 ꕥ━⬣
 ┃✾ ${prefix}awoawo
 ┃✾ ${prefix}benedict
 ┃✾ ${prefix}chat
