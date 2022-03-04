@@ -18,8 +18,8 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = true //status online (online)
 
 // Other
-global.botname = "Shiro-Md" //namabot kalian
-global.ownername= "hyzer." //nama kalian
+global.botname = "𝑺𝒉𝒊𝒓𝒐-𝑴𝒅" //namabot kalian
+global.ownername= "𝒉𝒚𝒛𝒆𝒓" //nama kalian
 global.myweb ="https://github.com/Hyzerr" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
 global.github = "https://Hyzerr.github.io/" //bebas
@@ -31,7 +31,7 @@ global.thumbnail = "./image/elaina.jpg" // ini lol.jpg adalah nama foto di folde
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6282361160044","6282361160044","6282361160044"] //ganti agar fitur owner bisa di gunakan
-global.packname = '©shiro-Md' //sticker wm ubah
+global.packname = '©𝑺𝒉𝒊𝒓𝒐-𝑴𝒅' //sticker wm ubah
 global.author = 'hehe' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -50,7 +50,7 @@ global.mess = {
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
 	bot: 'Fitur Khusus Pengguna Nomor Bot',
     errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-    wait: '⏳ Sedang Di Proses',
+    wait: 'Sedang Di Proses(>▽<)',
 	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
